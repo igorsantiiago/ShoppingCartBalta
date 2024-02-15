@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Balta - ShoppingCart</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Bella Cucina Italiana</h1>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h2>Pedido #12345</h2>
+        </div>
+
+        <div class="content">
+            <section>
+                <table class="shopping-table">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="./img/pizza.jpg" alt="pizza" height="100" width="100">
+                                    <div class="product__info">
+                                        <div class="product__name">Pizza</div>
+                                        <div class="product__category">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 85,00
+                            </td>
+                            <td>
+                                <div class="product__quantity">
+                                    <button>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </button>
+                                    <span>
+                                        2
+                                    </span>
+                                    <button>
+                                        <i class="bi bi-plus-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 170,00
+                            </td>
+                            <td>
+                                <div class="product__remove">
+                                    <button>
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="./img/croissant.jpg" alt="croissant" height="100" width="100">
+                                    <div class="product__info">
+                                        <div class="product__name">Croissant</div>
+                                        <div class="product__category">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 25,00
+                            </td>
+                            <td>
+                                <div class="product__quantity">
+                                    <button>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </button>
+                                    <span>
+                                        1
+                                    </span>
+                                    <button>
+                                        <i class="bi bi-plus-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 25,00
+                            </td>
+                            <td>
+                                <div class="product__remove">
+                                    <button>
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="./img/pasta.jpg" alt="pizza" height="100" width="100">
+                                    <div class="product__info">
+                                        <div class="product__name">Macarronada</div>
+                                        <div class="product__category">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 50,00
+                            </td>
+                            <td>
+                                <div class="product__quantity">
+                                    <button>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </button>
+                                    <span>
+                                        3
+                                    </span>
+                                    <button>
+                                        <i class="bi bi-plus-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                R$ 150,00
+                            </td>
+                            <td>
+                                <div class="product__remove">
+                                    <button>
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <aside>
+                <div class="shopping-cart__summary">
+                    <header>Resumo do Compra</header>
+                    <div class="shopping-cart__details">
+                        <div>
+                            <p>Sub-total</p>
+                            <p>R$ 345,00</p>
+                        </div>
+                        <div>
+                            <p>Frete</p>
+                            <p>Gratuito</p>
+                        </div>
+                        <div>
+                            <button>
+                                Adicionar cupom de descontos
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <footer>
+                        <p>Total</p>
+                        <p>R$ 345,00</p>
+                    </footer>
+                    <button class="shopping-cart__button">Finalizar a Compra</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+
+</html>
